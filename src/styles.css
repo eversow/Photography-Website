@@ -1,1 +1,3 @@
-/* Add application styles & imports to this file! */
+.containter{
+background: linear-gradient(90deg, rgb(127,127,0), rgb(127,200,0));
+}

@@ -1,3 +1,27 @@
 p {
   font-family: Lato;
 }
+
+.box{
+  background: linear-gradient(90deg, rgb(71, 71, 3), rgb(212, 253, 141));
+  width: 30%;
+  height: auto;
+  position:fixed;
+  
+  }
+
+  body{
+    background-color: rgb(90, 116, 173);
+   height: 100%;
+   
+  }
+
+  footer{
+    margin-top: 0;
+    background-color: rgb(101, 124, 173);
+    height:100%;
+  }
+
+  h1, p, .subscribe{
+    margin-left:34%
+  }

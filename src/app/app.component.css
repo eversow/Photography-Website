@@ -1,13 +1,16 @@
 .box{
   background: linear-gradient(90deg, rgb(143, 143, 20), rgb(212, 253, 141));
-  width: 30%;
+  width: 30% fit-content;
   height: auto;
   position:fixed;
   padding-bottom: 100%;
   padding-right:5%;
   padding-left: 5%;
   display:block;
-  width:fit-content;
+  float:left;
+  border: solid rgba(71, 71, 3, 0.5);
+  border-width: 5px;
+
   }
 
   .button{
@@ -27,11 +30,11 @@
    padding:20px;
    padding-bottom: 100%;
    width:100%;
-   
   }
 
   .description{
     display: block;
+    float:right;
     padding-left: 40%;
     border-width: 10px;
     width:fit-content;
@@ -61,4 +64,16 @@
   margin-left:50%;
   border-width: 10px;
   width:fit-content;
+}
+
+h1, h3, h4{
+  font-family: Castellar;
+}
+
+p, .subscribe{
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+h1, p{
+ padding-left:50px;
 }
